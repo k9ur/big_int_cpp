@@ -2,7 +2,6 @@
 #define BIG_INT_UNARY_OPERATORS_HPP
 
 #include "../big_int.hpp"
-#include "constructors.hpp"
 #include "arithmetic_assignment_operators.hpp"
 #include "member_functions.hpp"
 #include "static_functions.hpp"
