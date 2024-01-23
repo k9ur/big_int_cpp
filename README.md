@@ -6,23 +6,11 @@ Works with any base up to and including `UINT_MAX`
 Fully constexpr, except for friended I/O stream operators.
 
 ## Usage
-Compiles with C++23. gcc-13.2.0 with flags `--std=c23` used for testing
+Compiles with C++23. gcc-13.2.0 with flags `--std=c++23` used for testing
 
-Include all header files in `include/` and `include/def/`:
+To use, include:
 ```cpp
-#include "big_int.hpp"
-#include "def/arithmetic_assignment_operators.hpp"
-#include "def/assignment_operators.hpp"
-#include "def/binary_arithmetic_operators.hpp"
-#include "def/comparison_operators.hpp"
-#include "def/constructors.hpp"
-#include "def/external_functions.hpp"
-#include "def/friend_functions.hpp"
-#include "def/helper_functions.hpp"
-#include "def/member_functions.hpp"
-#include "def/static_functions.hpp"
-#include "def/unary_operators.hpp"
-#include "def/utility_functions.hpp"
+#include "big_int_all.hpp"
 ```
 
 ## Features
