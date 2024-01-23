@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+# Scripts
+*.bat
+*.sh
+
+# Vim files
+*.un~
+*~
